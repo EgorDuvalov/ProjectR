@@ -3,7 +3,8 @@ package com.innowise.projectr.command;
 import lombok.Getter;
 
 public enum PageNameList {
-    SIGNIN_PAGE("/passport/signIn"),
+    HOME_PAGE("/home"),
+    SIGNIN_PAGE("/passport/login"),
     SIGNUP_PAGE("/passport/signUp"),
     SIGNOUT_PAGE("/passport/signOut");
 
